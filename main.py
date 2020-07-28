@@ -4,19 +4,31 @@
 
 Score = 0
 
-def function(k):
-  L1 = int(input("WILL YOU GO FIRST OR SECOND ?*"))
-  if k ==  "first" :
+def function():
+  P1 = str(input("WILL YOU GO FIRST OR SECOND ?"))
+  if P1 ==  "first" :
     print(" Player 1 starts ")
 
-def function2(l):
-  L2 = input(" Enter 1 or 2 ")
-  if l == '1':
-   result = 1 + Score
-   print(result)
+def function2():
+  P2 = input(" Enter 1 or 2 ")
+  if P2 == "1":
+    result = Score + 1
+    print(result)
+  if P2 == "2":
+    result2 = Score + 2
+    print(result2)
 
 function()
-function2()
+
+while Score == 20:
+
+  function2()
+  P1 = input("Add 1 or 2 more to each move")
+  P2 = input("Add 1 or 2 more to each move")
+  N = int(P1) + int(P2)
+  N = "Winner"
+  print(N)
+
 
 
 
