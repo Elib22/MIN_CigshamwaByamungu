@@ -1,4 +1,4 @@
-#choose a player to go and make it move 
+# choose a player to go and make it move 
 # each player may take a step a head
 # First one to 20 wins 
 
@@ -31,4 +31,4 @@ while Score == 20:
 
 
 
-
+#Still a working a processs
