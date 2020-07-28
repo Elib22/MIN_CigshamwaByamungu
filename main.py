@@ -2,10 +2,14 @@
 # each player may take a step a head
 # First one to 20 wins 
 
-Score = 0
 
-#Player 1
-P1 = True
+def function(k):
+  L1 = int(input("WILL YOU GO FIRST OR SECOND ?*"))
+  if k ==  "first" :
+    print(" Player 1 starts ")
 
-running = True
-while running:
+def function2(k):
+  L2 = input(" Enter 1 or 2 ")
+  if k == '1':
+
+k = 
